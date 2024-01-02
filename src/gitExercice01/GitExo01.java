@@ -1,10 +1,27 @@
 package gitExercice01;
+import java.util.*;
 
 public class GitExo01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		boolean reload = true;
+		
+		// Nombre de chevaux au départ
+		int horseOnGrid = 14;
+		
+		// Liste des chevaux
+		ArrayList<Integer> horsesList = new ArrayList<>();
+		
+		
+		
+		// Nombre de 
+		
+		for (int i = 0; i < horseOnGrid ;i++) {
+		 int horseNumber = 1 + ((int) Math.random() * (horseOnGrid - 1));
+		 horsesList.add(horseNumber);
+		}
+		System.out.println(horsesList);
 	}
 
 }
