@@ -14,11 +14,9 @@ public class GitExo01 {
 		ArrayList<Integer> horsesList = new ArrayList<>();
 		
 		
-		
-		// Nombre de 
-		
+		// Remplissage de la liste des chevaux
 		for (int i = 0; i < horseOnGrid ;i++) {
-		 int horseNumber = 1 + ((int) Math.random() * (horseOnGrid - 1));
+		 int horseNumber = 1 + (int) (Math.random() * ((horseOnGrid - 1)+1));
 		 horsesList.add(horseNumber);
 		}
 		System.out.println(horsesList);
